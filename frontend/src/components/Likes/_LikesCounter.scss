@@ -1,0 +1,18 @@
+.icon {
+    font-size: 1.6em;
+    cursor: pointer;
+        .far.fa-heart {
+            color: $color-secondary-dark;
+            background-color: $color-secondary-light;
+            position: absolute;
+            transition: all 1.5s;
+                &:hover{
+                    opacity: 0;
+                }
+            }
+        .fas.fa-heart {
+            background: linear-gradient($color-secondary,$color-primary);
+            -webkit-background-clip:text;
+            color:transparent;
+            } 
+} 

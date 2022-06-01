@@ -1,0 +1,75 @@
+
+.post-form-auth-toogle {
+    min-height: 350px;
+}
+
+.new-post__controls {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.post-list,.container {
+    padding-left: 0;
+    .card {
+        width: 100%;
+        min-width: 200px;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        p {
+            margin: 10px;
+             
+              }
+
+        }
+        .author-info-box {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            .avatar-container {
+                width: 50px;
+                height: 50px;
+                margin-left: 10px;
+                flex-shrink: 0;
+            }
+            .user-infos-container {
+                height: 50px;
+                .name-container {
+                    display: block;
+                }
+            }
+        }
+        .card-btn-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+        }
+    
+}
+
+.post-img-wrapper {
+    width:fit-content;
+    height: fit-content;
+    margin: 5px;
+    img,.post-img {
+        max-width: 250px;
+        max-height: 180px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+.comments-displayer {
+    width: 80%;
+}
+
+.comments-list {
+    .card {
+        min-width: 160px;
+    }
+}
+.post-thread {
+    margin-bottom: 150px;
+}

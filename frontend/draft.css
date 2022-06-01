@@ -1,0 +1,166 @@
+* {
+   
+   text-align: center; 
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 20px;
+   margin: 30px;
+}
+
+.navbar {
+   display: flex;
+   flex-direction: column;
+   background-color: thistle;
+}
+
+.card {
+   display: flex;
+   align-items: center;
+   border-radius: 10px;
+   background-color: rgb(221, 201, 201);
+   min-width: 400px;
+}
+
+.card-data {
+   width: 100%;
+   min-width: 400px;
+   margin: 0px;
+   background-color: rgb(221, 201, 201);
+}
+
+.card-img {
+   object-fit: cover;
+}
+
+.new-post__form {
+   text-align: center; 
+   background-color: aquamarine;
+}
+
+.posts-thread {
+   margin: 0px;
+}
+
+.posts {
+   margin:0px;
+}
+
+ul.posts-list {
+   padding: 0px;
+   margin: 5px;
+}
+
+button {
+   cursor: pointer;
+   border-radius: 10px;
+   padding: 5px;
+   background-color: cornflowerblue;
+ 
+}
+
+.login-form {
+   background-color: bisque;
+}
+
+.user-form {
+   background-color: cadetblue;
+}
+
+.container__profil {
+   background-color: chartreuse;
+}
+
+.logged-container {
+   background-color: cornsilk;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logged-container__userdata {
+   background-color: cornsilk;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+   height: 120px;
+   margin:0px;
+}
+
+.user-infos-container {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+
+.author-info-box {
+   display: flex;
+   align-items: center;
+}
+
+.name-container {
+   display: flex;
+   margin: 0px;
+}
+
+.user-firstname {
+margin: 5px;
+}
+.user-position {
+   margin: 5px;
+}
+.user-name {
+   margin: 5px;
+   }
+
+.avatar-container {
+ width: 100px;
+ height: 100px;
+ border-radius: 50px;
+ margin: 0px;
+ 
+}
+
+.avatar-img {
+   border: 3px solid white;
+   border-radius: 50%;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   margin: 0px;
+}
+
+.profil__btn-container {
+   display: flex;
+}
+
+
+.data-containers-wrapper {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+
+.user-img-container {
+   width: 200px;
+   height: 200px;
+   margin: 0px;
+}
+
+.user-img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   margin: 0px;
+   border-radius: 15px;
+}
+
+.profil__data-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}

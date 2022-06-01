@@ -1,0 +1,100 @@
+/*global styles*/
+html {height: 100%;}
+
+body {
+    height: 100%;
+    color: $color-primary;
+    font-family: "Roboto", Arial, sans-serif;
+    min-width: 271px;
+    max-width: 1872px;
+    background: no-repeat center center fixed;
+    background-image: url('../assets/background.png');
+    background-size: cover;
+    margin: auto;
+    .body-wrapper {
+        display: flex;
+        flex-direction: column;
+        .body-container {
+            .container {
+                @include container
+            }
+            .main {
+            margin-block-start: 185px;
+            margin-block-end: 150px;
+            }
+            .auth {
+                height: 100%;
+                margin-block-start: 120px;
+                margin-block-end: 150px;
+            }
+            .profil {
+                margin-block-start: 185px;
+                margin-block-end: 150px;
+            }
+            .signup-success-displayer {
+                margin-block-start: 185px;
+            }
+            .deleted-msg {
+                margin-block-start: 185px;
+            }
+        }
+    }
+
+}
+
+h1 {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: $color-primary;
+}
+
+li{
+    list-style-type: none;
+}
+
+label {
+    margin-right: 7px;
+}
+
+textarea {
+    padding: 10px;
+    margin: 10px 15px 0px 15px;
+}
+
+p {
+    white-space: pre-wrap;
+    word-wrap: break-word;  
+}
+    
+.btn {
+    @include basic-button;
+        &:hover {
+            @include button-animation;
+        }
+}
+
+.small-btn {
+    @include small-button;
+        &:hover {
+            @include button-animation;
+        }
+}
+
+.small-delete-btn {
+    @include small-delete-btn;
+}
+
+.error-box {
+    color: rgb(238, 11, 11);
+    font-size: 15px;
+    font-weight: 500;
+    text-align: end;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    height: 20px;
+}

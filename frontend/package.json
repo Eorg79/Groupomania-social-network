@@ -1,0 +1,54 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "audit": "0.0.6",
+    "axios": "^0.24.0",
+    "dayjs": "^1.10.7",
+    "fastest-validator": "^1.12.0",
+    "fix": "0.0.6",
+    "formik": "^2.2.9",
+    "node-sass": "^7.0.1",
+    "npm": "^8.3.0",
+    "react": "^17.0.2",
+    "react-dayjs": "^0.3.2",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.14.4",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "^5.0.0",
+    "react-use-password-validator": "0.0.1",
+    "styled-components": "^5.3.3",
+    "styled-icons": "^10.45.0",
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.11",
+    "yup-password": "^0.2.2"
+  },
+  "scripts": {
+    "start": "set PORT=8000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

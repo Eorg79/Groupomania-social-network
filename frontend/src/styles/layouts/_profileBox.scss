@@ -1,0 +1,12 @@
+
+
+.profil {
+    flex-direction: column;
+    .new-user__controls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: 500;
+    }
+}

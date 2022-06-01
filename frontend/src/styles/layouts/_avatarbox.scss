@@ -1,0 +1,81 @@
+
+.logged-container {
+    background-color: $color-primary-transp;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    a,.logout-link {
+      color: white;
+      font-size: small;
+      text-decoration: underline
+    };
+ }
+ 
+ .logged-container__userdata {
+    padding-left: 10px;
+    padding-right: 5px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+    margin:0px;
+ }
+ 
+ .user-infos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+ }  
+ 
+ .user-img-container {
+   width: 200px;
+   height: 200px;
+   margin: 10px;
+   .user-img {
+      width: 100%;
+      height: 100%;
+      border-radius: 5%;
+      object-fit: cover;
+      margin: 0px;
+   }
+ }
+ 
+ .avatar-container {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    margin: 0px;
+    background-image: url('../assets/user.png');
+    background-size: cover;
+    
+   }
+ 
+   .avatar-img {
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      margin: 0px;
+   }
+
+   .name-container {
+    display: flex;
+    margin: 0px;
+ }
+ 
+ .user-firstname {
+ margin: 5px;
+ }
+ .user-position {
+    margin: 5px;
+ }
+ .user-name {
+    margin: 5px;
+    }
+ 
+   
